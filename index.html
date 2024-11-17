@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Bavley</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <p class="logo">Bavley<p class="dot">.</p></p>
+            <nav>
+                <button class="nav-item" data-target="home">Home</button>
+                <button class="nav-item" data-target="programs">Programs</button>
+                <button class="nav-item" data-target="about">About</button>
+                <button class="nav-item" data-target="contact">Contact</button>
+            </nav>
+        </div>
+        <div class="social">
+            <a class="social-link" href="https://www.instagram.com/"><img src="img/instagram.svg" alt="Instagram"></a>
+            <a class="social-link" href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a>
+            <a class="social-link" href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a>
+            <button class="nav-menu" id="menu-button"><img src="img/nav.svg" alt="Menu"></button>
+        </div>
+    </header>
+    <main>
+        <section class="main" id="home">
+            <div class="main-left">
+                <div class="line"></div>
+                <p class="promo">Sweet Sweat for<br>Sweet Body</p>
+                <p class="text">Don't be afraid to sweat for a healthy body with<br>
+                    our experienced coaching team and trainers
+                </p>
+                <div class="buttons">
+                    <button class="main-button" id="get-started">Get Started</button>
+                    <button class="play" id="play-video"><img src="img/play.svg" alt="Play"></button>
+                </div>
+                <p class="Bavley">Bavley</p>
+                <p class="training">Training Programs</p>
+                <div class="boxes">
+                    <div class="box">
+                        <img class="box-img" src="img/heart.svg" alt="Yoga Icon">
+                        <p class="program-p">Yoga</p>
+                    </div>
+        
+                    <div class="box">
+                        <img class="box-img" src="img/arm.svg" alt="Muscles Icon">
+                        <p class="program-p">Muscles</p>
+                    </div>
+        
+                    <div class="box">
+                        <img class="box-img" src="img/dumbbell.svg" alt="Fitness Icon">
+                        <p class="program-p">Fitness</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right" id="form-section">
+                <img class="part" src="img/y.svg" alt="">
+                <p class="Bavley-form">Bavley</p>
+                <img class="girl" src="img/Girl.svg" alt="Fitness Girl">
+                <form id="membership-form">
+                    <p class="form-title">Membership Form</p>
+                    <p class="form-p">Full Name</p>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <div class="p-wrap">
+                        <div>
+                            <p class="form-p">Contact Number</p>
+                            <input type="tel" name="tel" id="tel" placeholder="Your number">
+                        </div>
+                        <div>
+                            <p class="form-p">Email</p>
+                            <input type="email" name="email" id="email" placeholder="Your email">
+                        </div>
+                    </div>
+                    <p class="form-p">Reason to Join</p>
+                    <input type="text" name="text" id="reason" placeholder="Your reason here">
+                    <div class="p-wrap">
+                        <div>
+                            <p class="form-p">Class</p>
+                            <input list="classes" id="class" placeholder="Yoga">
+                        </div>
+                        <div>
+                            <p class="form-p">Gender</p>
+                            <input list="genders" id="gender" placeholder="Female">
+                        </div>
+                    </div>
+                    <button class="form-button" type="submit" id="submit-button">Join</button>
+                    <datalist id="classes">
+                        <option value="Yoga">
+                        <option value="Pilates">
+                        <option value="Circuit Training">
+                        <option value="HIIT">
+                        <option value="Water Aerobics">
+                        <option value="Cycling">
+                        <option value="Bootcamp">
+                        <option value="Zumba">
+                        <option value="Kickboxing">
+                    </datalist>
+                    <datalist id="genders">
+                        <option value="Male">
+                        <option value="Female">
+                        <option value="Non-binary">
+                        <option value="Prefer not to mention">
+                    </datalist>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
